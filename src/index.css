@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  background-color: #F4F5F4;
+}
+
+.gridContainer{
+  padding: 3em;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+
+}
+
+.navButton{
+  height: 3em;
+  width: 6em;
+  background-color:#5562c6 ;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.grid-item{
+  padding: 3em;
+  font-size: 30px;
+  text-align: center;
+}
+
+.h2nav{
+  font-size: 20px !important;
+}
+
+.versionNav{
+  font-size: 14px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: #F4F5F4;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: left !important;
+  padding: 20px 0;
+  padding-left: 2em;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 5;
+  
+}
